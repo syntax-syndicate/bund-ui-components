@@ -9,7 +9,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "bundui-images.netlify.app"
+        hostname: "**"
+      },
+      {
+        protocol: "http",
+        hostname: "**"
       }
     ]
   },
